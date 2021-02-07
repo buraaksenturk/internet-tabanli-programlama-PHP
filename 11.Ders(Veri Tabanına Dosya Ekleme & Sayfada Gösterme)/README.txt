@@ -1,0 +1,1 @@
+Bu hafta dersimizde php ile sunucuya dosya yüklemeyi ve bunları sayfaya çağırmayı öğrendik.

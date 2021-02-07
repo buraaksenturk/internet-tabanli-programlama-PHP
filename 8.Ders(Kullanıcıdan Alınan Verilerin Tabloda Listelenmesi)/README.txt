@@ -1,0 +1,1 @@
+Vize ödevi için örnek çalışma

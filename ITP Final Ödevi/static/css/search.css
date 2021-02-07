@@ -1,0 +1,17 @@
+#search{
+    padding: 8px;
+    border: 0;
+    border-bottom: 1px solid #A9A9A9;
+    background: transparent;
+    width: 100px;
+    transition-duration:.3s;
+    transition-property: width, color;
+    outline: 0;
+    font-size: 13px;
+    font-family: 'Palanquin';
+}
+#search:focus {
+    width: 150px;
+    border-bottom: 1px solid #cc181e;
+    color: black;
+}

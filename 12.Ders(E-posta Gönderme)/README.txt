@@ -1,0 +1,1 @@
+Bu hafta dersimizde php ile eposta göndermeyi öğrendik

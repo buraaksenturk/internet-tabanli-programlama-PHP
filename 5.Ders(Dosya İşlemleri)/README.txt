@@ -1,0 +1,1 @@
+Bu hafta derste PHP ile dosya işlemlerini öğrendik (Dosyaya yazma, okuma, oluşturma vb.)

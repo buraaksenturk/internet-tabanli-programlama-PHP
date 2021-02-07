@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kod Omega</title>
+    <!-- ICON -->
+    <link rel="icon" type="image/jpeg" href="static/img/kodomega.jpeg">
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+    <h1 id="page-title">GİRİŞ SAYFASI</h3><br>
+    <div class="container" id="container">
+      <!-- Kayıt Olma -->
+      <div class="form-container sign-up-container">
+        <form action="templates/register.php" method="POST" enctype="multipart/form-data">
+          <h1>Kayıt Ol</h1>
+          <input type="text" name="name" placeholder="Adınızı Giriniz" />
+          <input type="text" name="surname" placeholder="Soyadınızı Giriniz" />
+          <input type="email" name="email" placeholder="Email Adresinizi Giriniz" />
+          <input type="password" name="password" placeholder="Şifrenizi Giriniz" />
+          <input type="file" name="fileToUpload" id="fileToUpload">
+          <button>Kayıt Ol</button>
+        </form>
+      </div>
+      <!-- Giriş Yapma -->
+      <div class="form-container sign-in-container">
+        <form action="templates/layout/_login.php" method="POST">
+          <h1>Giriş Yap</h1>
+          <input type="email" name="email" placeholder="Email Adresinizi Giriniz" />
+          <input type="password" name="password" placeholder="Şifrenizi Giriniz" />
+          <a href="templates/layout/_sifrehatirlatma.php">Parolanızı mı unuttunuz?</a>
+          <button>Giriş Yap</button>
+        </form>
+      </div>
+      <!-- Geçiş Sayfaları -->
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Hoşgeldin!</h1>
+            <p>Bizimle birlikte eğlenmek için lütfen gerekli bilgiler ile giriş yap!</p>
+            <button class="ghost" id="signIn">Giriş Yap</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Merhaba, Dostum!</h1>
+            <p>Gerekli bilgileri gir ve sende Kod Omega Chat dünyamıza katıl!</p>
+            <button class="ghost" id="signUp">Kayıt Ol</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JS -->
+  <script src="static/js/index.js"></script>
+</body>
+</html>
